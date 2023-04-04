@@ -24,7 +24,7 @@ nav{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .flex{
@@ -42,7 +42,7 @@ h1{
 }
 
 .lower{
-   max-width: 60%;
+   max-width: 40%;
     align-items: center;
     text-align: center;
 }
@@ -57,11 +57,20 @@ h1{
 }
 
 .top-space{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .margin-bottom{
     margin-bottom: 30px;
+}
+
+.main-image{
+    width: 60%;
+
+}
+
+.side-test{
+    width: 40%;
 }
 
 nav ul{
@@ -76,10 +85,10 @@ div input{
     border: 0;
     padding: 0.7rem;
     border-radius: 15px;
-    margin-bottom: 50px;
 }
 div input.black{
     background-color: black;
     color: white;
+    margin-bottom: 50px;
 }
  
