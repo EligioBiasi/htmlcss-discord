@@ -12,7 +12,6 @@ body{
 
 header{
     background-image: url('img/jumbo.png');
-    height: 600px;
     background-size:cover;
 }
 
@@ -22,6 +21,10 @@ ul{
 
 nav{
     width: 60%;
+}
+
+h1{
+    font-size: 3rem;
 }
 
 .flex{
@@ -38,6 +41,12 @@ nav{
     width: 100%;
 }
 
+.lower{
+   max-width: 60%;
+    align-items: center;
+    text-align: center;
+}
+
 .logo{
     width: 20%;
     padding: 1rem;
@@ -45,6 +54,14 @@ nav{
 
 .text-white{
     color: white;
+}
+
+.top-space{
+    margin-top: 5%;
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
 }
 
 nav ul{
@@ -59,4 +76,10 @@ div input{
     border: 0;
     padding: 0.7rem;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
+div input.black{
+    background-color: black;
+    color: white;
+}
+ 
