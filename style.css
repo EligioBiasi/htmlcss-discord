@@ -32,6 +32,11 @@ h2{
     font-weight: bold;
 }
 
+p{
+    padding-top: 25px;;
+    font-size: smaller;
+}
+
 .flex{
     display: flex;
 }
@@ -103,3 +108,8 @@ div input.black{
     color: white;
     margin-bottom: 50px;
 }
+
+main section{
+    padding: 8% 0;
+}
+
